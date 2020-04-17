@@ -5,7 +5,7 @@ body {
 }
 
 a {
-	color:blue;
+	color:#B8860B;
 	text-decoration: unset;
 	font-family: 'Segoe-UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -42,8 +42,12 @@ img {
 #navbar {
 
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-bottom: 30px;
+	border: black 1px solid;
+	border-radius: 10px;
+	box-shadow: black 2px 2px 5px;
+	height: 24px;
 }
 
 .noticiasDestaque img {
