@@ -10,6 +10,12 @@ a {
 	font-family: 'Segoe-UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a:hover {
+	color:#660000;
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+}
+
 #cabecalho {
 
 	border: black 1px solid;
@@ -80,8 +86,6 @@ img {
 
 .noticiasDestaque {
 
-	/*display: flex;
-	justify-content: center;*/
 	border: gray 1px solid;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -104,3 +108,88 @@ img {
 	margin-right: 5%;
 	padding: 2%
 }
+
+#rodape {
+	margin-top: 30px;
+	background-color: #ffe6e6;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+    width: 100%;
+	margin-left: -8px;	
+	height: 10%;
+	
+}
+
+.text {
+	font-size: 18px;
+	-webkit-text-stroke-width: medium;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+	
+}
+
+  .imgDestaque {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+  }
+
+  .noticiasDestaque:hover .imgDestaque {
+	opacity: 0.3;
+  }
+
+  #sobre {
+
+	display: flex;
+	justify-content: space-between;
+	margin-top: 14px;
+}
+
+.sobreMim {
+
+	border: gray 1px solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: black 2px 2px 3px;
+	border-radius: 10px;
+	width: 50%;
+}
+
+.sobreMim img {
+
+	width: 100%;
+	border-radius: 10px;
+}
+
+.sobreDestaque {
+
+	border: gray 1px solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: black 2px 2px 3px;
+	border-radius: 10px;
+}
+
+.saibaDestaque {
+
+	border: gray 1px solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: black 2px 2px 3px;
+	border-radius: 10px;
+}
+
+#saiba {
+
+	display: flex;
+	justify-content: space-between;
+	margin-top: 14px;
+	margin-left: 29%;
+}
+
+
+  
