@@ -46,11 +46,23 @@ img {
 	margin-top: 14px;
 }
 
+@media only screen and (max-width: 768px) {
+	#noticias {
+		flex-direction: column-reverse;
+	}
+  }
+
 #noticiasImportantes {
 
 	display: flex;
 	justify-content: space-between;
 }
+
+@media only screen and (max-width: 768px) {
+	#noticiasImportantes {
+		flex-direction: column-reverse;
+	}
+  }
 
 #navbar {
 
@@ -75,6 +87,12 @@ img {
 	height: 315px;
 	border-radius: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+	.noticiasDestaque iframe {
+		width: 100%;
+	}
+  }
 
 #tituloDestaque {
 
@@ -190,6 +208,13 @@ img {
 	margin-top: 14px;
 	margin-left: 29%;
 }
+
+@media only screen and (max-width: 768px) {
+	#saiba {
+		margin-left: 10px ;
+	}
+  }
+
 
 
   
