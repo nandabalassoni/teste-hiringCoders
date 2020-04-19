@@ -147,6 +147,15 @@ img {
 	
 }
 
+@media only screen and (max-width: 768px) {
+	.text {
+		margin-top: 15px;
+		margin-left:12px
+	}
+  }
+
+
+
   .imgDestaque {
 	opacity: 1;
 	display: block;
